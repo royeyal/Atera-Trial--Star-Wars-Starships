@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Star Wars Starships
- * Plugin URI: https://github.com/royeyal/Mikes-Chocobo-Breeding-Guide
+ * Plugin URI: https://github.com/royeyal/Atera-Trial--Star-Wars-Starships
  * Description: Use the Star Wars Starships block to retrieve data from the Star Wars API.
  * Version: 1.1.0
  * Author: Roy Eyal
