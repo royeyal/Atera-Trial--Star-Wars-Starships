@@ -7,19 +7,19 @@
  * Author: Roy Eyal
  * Author URI: https://royeyal.com
  *
- * @package gutenberg-examples
+ * @package atera-examples
  */
 
-function gutenberg_examples_dynamic_block_block_init() {
+function atera_examples_dynamic_block_block_init() {
 
 	register_block_type(
 		plugin_dir_path( __FILE__ ) . 'build',
 		array(
-			'render_callback' => 'gutenberg_examples_dynamic_block_render_callback',
+			'render_callback' => 'atera_examples_dynamic_block_render_callback',
 		)
 	);
 }
-add_action( 'init', 'gutenberg_examples_dynamic_block_block_init' );
+add_action( 'init', 'atera_examples_dynamic_block_block_init' );
 
 
 /**
@@ -29,7 +29,7 @@ add_action( 'init', 'gutenberg_examples_dynamic_block_block_init' );
  * @param string   $content        Rendered block output. ie. <InnerBlocks.Content />.
  * @param WP_Block $block_instance The instance of the WP_Block class that represents the block being rendered.
  */
-function gutenberg_examples_dynamic_block_render_callback( $attributes, $content, $block_instance ) {
+function atera_examples_dynamic_block_render_callback( $attributes, $content, $block_instance ) {
 	ob_start();
 	/**
 	 * Keeping the markup to be returned in a separate file is sometimes better, especially if there is very complicated markup.
