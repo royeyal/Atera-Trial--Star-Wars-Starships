@@ -16,6 +16,7 @@
     gap: 10%;
     padding: 1.5rem;
     border-radius: 1rem;
+    direction: ltr;
 }
 #starships h3 {
     color: #fff;
