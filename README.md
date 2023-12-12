@@ -5,7 +5,7 @@ This a WordPress plugin that adds a **block** to the WordPress Blocks Editor ("G
 ## Instructions
 1. Upload and activate plugin via *Plugins* in the dashboard.
 2. Go to any post/page and using the Blocks Editor look for the **Star Wars Starships** block under the *Text* category.
-3. View data on the published live page/post.
+3. Click *Publish* and then view the live page/post to see in action.
 
 ---
 
