@@ -1,7 +1,12 @@
 # Atera Trial: Star Wars Starships
 
-This a WordPress plugin that adds a **block** to the WordPress blocks editor that pulls data from the [Star Wars API](https://swapi.dev/).
+This a WordPress plugin that adds a **block** to the WordPress Blocks Editor ("Gutenberg") that pulls starship data from the [Star Wars API](https://swapi.dev/).
+
+## Instructions
+1. Upload and activate plugin via *Plugins* in the dashboard.
+2. Go to any post/page and using the Blocks Editor look for the **Star Wars Starships** block under the *Text* category.
+3. View data on the published live page/post.
 
 ---
 
-The code was written for a home assignment for [Atera](https://www.atera.com/) (hence, it was writen quick and dirty, but it gets the job done).
+The code was written as a home assignment for [Atera](https://www.atera.com/) (hence why it was writen quick and dirty, but it gets the job done).
