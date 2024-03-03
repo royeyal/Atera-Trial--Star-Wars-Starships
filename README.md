@@ -1,4 +1,4 @@
-# Atera Trial: Star Wars Starships
+# Star Wars Starships WordPress Blocks (Gutenberg) Plugin
 
 This a WordPress plugin that adds a **block** to the WordPress Blocks Editor ("Gutenberg") that pulls starship data from the [Star Wars API](https://swapi.dev/).
 
